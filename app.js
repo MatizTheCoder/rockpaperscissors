@@ -29,7 +29,7 @@ function gameRound(playerChoice) {
         (playerChoice == 'Paper' && pcChoice == "Rock")) {
 
         playerScore += 1
-        result = ("You win!" + playerChoice + " crashes " + pcChoice + "<br><br>Your Score: " + playerScore + "<br> Computer's Score: " + pcScore)
+        result = ("You win! " + playerChoice + " crashes " + pcChoice + "<br><br>Your Score: " + playerScore + "<br> Computer's Score: " + pcScore)
 
         if (playerScore == 5) {
             result += '<br><br> You won the game! Reload the page to play again!'
